@@ -13,111 +13,86 @@ function addToCart(){
 
 function scienceFictionClicked(){
     
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden';
-    document.getElementById("book3").style.visibility='visible';
-    document.getElementById("book2").style.visibility='visible';
-    document.getElementById("book1").style.visibility='visible';
+    document.getElementById("numberofitems").innerHTML="3 items"
+    document.getElementById("browsetext").innerHTML="Science Fiction"
     
-    document.getElement
+    document.getElementById("book1img").src="assets/ItemSlider/images/germangirl.jpeg";
+    document.getElementById("book1name").innerHTML = "The German Girl"
+    document.getElementById("book1author").innerHTML = "Armando Lucas Correa"
+    document.getElementById("book1price").innerHTML = "9.99$"
+    
+    document.getElementById("book2img").src="assets/ItemSlider/images/sevenstones.jpg";
+    document.getElementById("book2img").style.height = "250px";
+    document.getElementById("book2name").innerHTML = "Seven Stones to Stand or Fall"
+    document.getElementById("book2author").innerHTML = "Diana Gabaldon"
+    document.getElementById("book2price").innerHTML = "15.99$"
+    
+    document.getElementById("book3img").src="assets/ItemSlider/images/magpiemurders.jpeg";
+    document.getElementById("book3name").innerHTML = "Magpie Murders"
+    document.getElementById("book3author").innerHTML = "Anthony Horrowitz"
+    document.getElementById("book3price").innerHTML = "13.99$"
 }
 
 function satireClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden';
-    document.getElementById("book3").style.visibility='hidden';
-    document.getElementById("book2").style.visibility='hidden';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="1 item"
+    document.getElementById("browsetext").innerHTML="Satire"
 }
 
 function artClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden';
-    document.getElementById("book3").style.visibility='hidden';
-    document.getElementById("book2").style.visibility='hidden';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="1 item"
+    document.getElementById("browsetext").innerHTML="Art"
 }
 
 function fantasyClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden'; 
-    document.getElementById("book3").style.visibility='hidden';
-    document.getElementById("book2").style.visibility='visible';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="2 items"
+    document.getElementById("browsetext").innerHTML="Fantasy"
 }
 
 function biographyClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden';
-    document.getElementById("book3").style.visibility='hidden';
-    document.getElementById("book2").style.visibility='hidden';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="1 item"
+    document.getElementById("browsetext").innerHTML="Biography"
 }
 
 function selfhelpClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='visible';
-    document.getElementById("book3").style.visibility='visible';
-    document.getElementById("book2").style.visibility='visible';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="4 items"
+    document.getElementById("browsetext").innerHTML="Self Help"
 }
 
 function historyClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='visible';
-    document.getElementById("book3").style.visibility='visible';
-    document.getElementById("book2").style.visibility='visible';
-    document.getElementById("book1").style.visibility='visible';
+    document.getElementById("numberofitems").innerHTML="4 items"
+    document.getElementById("browsetext").innerHTML="History"
 }
 
 function actionClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden';
-    document.getElementById("book3").style.visibility='visible';
-    document.getElementById("book2").style.visibility='visible';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="3 items"
+    document.getElementById("browsetext").innerHTML="Action & Adventure"
 }
 
 function mysteryClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden';
-    document.getElementById("book3").style.visibility='visible';
-    document.getElementById("book2").style.visibility='visible';
-    document.getElementById("book1").style.visibility='visible';
+    document.getElementById("numberofitems").innerHTML="3 items"
+    document.getElementById("browsetext").innerHTML="Mystery"
 }
 
 function horrorClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden';
-    document.getElementById("book3").style.visibility='hidden';
-    document.getElementById("book2").style.visibility='hidden';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="1 item"
+    document.getElementById("browsetext").innerHTML="Horror"
 }
 
 function guideClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden';
-    document.getElementById("book4").style.visibility='hidden'; 
-    document.getElementById("book3").style.visibility='hidden';
-    document.getElementById("book2").style.visibility='visible';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="2 items"
+    document.getElementById("browsetext").innerHTML="Guide & Travel"
 }
 
 function childrenClicked(){
-    document.getElementById("book6").style.visibility='hidden';
-    document.getElementById("book5").style.visibility='hidden'; 
-    document.getElementById("book4").style.visibility='hidden'; 
-    document.getElementById("book3").style.visibility='hidden';
-    document.getElementById("book2").style.visibility='hidden';
-    document.getElementById("book1").style.visibility='visible';
+    
+    document.getElementById("numberofitems").innerHTML="1 item"
+    document.getElementById("browsetext").innerHTML="Childrens"
 }
