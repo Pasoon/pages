@@ -163,73 +163,73 @@
                     </a>
                     <ul class="list-group">
 
-                        <li class="list-group-item">Science Fiction
-      <span class="label label-success pull-right">1</span>
+                        <li class="list-group-item" onclick="scienceFictionClicked()">Science Fiction
+      <span class="label label-success pull-right">3</span>
                         </li>
-                        <li class="list-group-item">Satire
-                      <span class="label label-success pull-right">1</span>
+                        <li class="list-group-item" onclick="satireClicked()">Satire
+                        <span class="label label-success pull-right">1</span>
                         </li>
-                        <li class="list-group-item">Drama
-                         <span class="label label-success pull-right">1</span>
-                        </li>
-                        <li class="list-group-item">Action & Adventure
-                             <span class="label label-success pull-right">1</span>
-                        </li>
-                        <li class="list-group-item">Romance
+                        
+                        <li class="list-group-item" onclick="artClicked()">Art
                              <span class="label label-success pull-right">1</span>
                         </li>
                         
-                        <li class="list-group-item">Mystery
+                        <li class="list-group-item" onclick="fantasyClicked()">Fantasy
+                             <span class="label label-success pull-right">2</span>
+                        </li>
+                        
+                        <li class="list-group-item" onclick="biographyClicked()">Biography
                              <span class="label label-success pull-right">1</span>
                         </li>
                         
-                        <li class="list-group-item">Horror
+                        <li class="list-group-item" onclick="selfhelpClicked()">Self Help
+                             <span class="label label-success pull-right">4</span>
+                        </li>
+                        
+                        <li class="list-group-item" onclick="historyClicked()">History
+                             <span class="label label-success pull-right">4</span>
+                        </li>
+                        
+                        <li class="list-group-item" onclick="actionClicked()">Action & Adventure
+                             <span class="label label-success pull-right">3</span>
+                        </li>
+                        
+                        <li class="list-group-item" onclick="mysteryClicked()">Mystery
+                             <span class="label label-success pull-right">3</span>
+                        </li>
+                        
+                        <li class="list-group-item" onclick="horrorClicked()">Horror
                              <span class="label label-success pull-right">1</span>
                         </li>
                         
-                        <li class="list-group-item">Guide & Travel
-                             <span class="label label-success pull-right">1</span>
+                        <li class="list-group-item" onclick="guideClicked()">Guide & Travel
+                             <span class="label label-success pull-right">2</span>
                         </li>
                         
-                        <li class="list-group-item">Childrens
-                             <span class="label label-success pull-right">0</span>
+                        <li class="list-group-item" onclick="childrenClicked()">Childrens
+                             <span class="label label-success pull-right">1</span>
                         </li>
                         
                         <li class="list-group-item">Religion & Spirituality
-                             <span class="label label-success pull-right">1</span>
-                        </li>
-                        
-                        <li class="list-group-item">Science
-                             <span class="label label-success pull-right">1</span>
-                        </li>
-                        
-                        <li class="list-group-item">History
-                             <span class="label label-success pull-right">1</span>
+                             <span class="label label-success pull-right">0</span>
                         </li>
                         
                         <li class="list-group-item">Poetry
-                             <span class="label label-success pull-right">1</span>
+                             <span class="label label-success pull-right">0</span>
                         </li>
                         
                         <li class="list-group-item">Comics
                              <span class="label label-success pull-right">0</span>
                         </li>
                         
-                        <li class="list-group-item">Art
+                        <li class="list-group-item">Romance
                              <span class="label label-success pull-right">0</span>
                         </li>
                         
-                        <li class="list-group-item">Fantasy
-                             <span class="label label-success pull-right">1</span>
+                        <li class="list-group-item">Drama
+                         <span class="label label-success pull-right">0</span>
                         </li>
                         
-                        <li class="list-group-item">Sport
-                             <span class="label label-success pull-right">0</span>
-                        </li>
-                        
-                        <li class="list-group-item">Biographies
-                             <span class="label label-success pull-right">0</span>
-                        </li>
                     </ul>
                 </div>
             
@@ -273,73 +273,73 @@
                 </div>
                 <!-- /.row -->
                 <div class="row">
-                    <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div id = "book1 "class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/" alt="" />
+                            <img id="book1img" src="assets/img/" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Book 1</a></h3>
-                                <p>Author : <strong>Name Here</strong>  </p>
-                                <p>Price : <strong>$00</strong>  </p>
+                                <h3><a id="book1name" href="#">Book 1</a></h3>
+                                <p id="book1author">Author : <strong>Name Here</strong>  </p>
+                                <p id="book1price">Price : <strong>$00</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button" onclick="addToCart()">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
                     </div>
                     <!-- /.col -->
-                    <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div id = "book2" class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/" alt="" />
+                            <img id="book2img" src="assets/img/" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Book 2</a></h3>
-                                <p>Author : <strong>Name Here</strong>  </p>
-                                <p>Price : <strong>$00</strong>  </p>
+                                <h3><a id="book2name" href="#">Book 1</a></h3>
+                                <p id="book2author">Author : <strong>Name Here</strong>  </p>
+                                <p id="book2price">Price : <strong>$00</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button" onclick="addToCart()">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
                     </div>
                     <!-- /.col -->
-                    <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div id = "book3" class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/" alt="" />
+                            <img id="book3img" src="assets/img/" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Book 3</a></h3>
-                                <p>Author : <strong>Name Here</strong>  </p>
-                                <p>Price : <strong>$00</strong>  </p>
+                                <h3><a id="book3name" href="#">Book 1</a></h3>
+                                <p id="book3author">Author : <strong>Name Here</strong>  </p>
+                                <p id="book3price">Price : <strong>$00</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button" onclick="addToCart()">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
                     </div>
                     <!-- /.col -->
-                    <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div id = "book4" class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/" alt="" />
+                            <img id="book4img" src="assets/img/" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Book 4</a></h3>
-                                <p>Author : <strong>Name Here</strong>  </p>
-                                <p>Price : <strong>$00</strong>  </p>
+                                <h3><a id="book4name" href="#">Book 1</a></h3>
+                                <p id="book4author">Author : <strong>Name Here</strong>  </p>
+                                <p id="book4price">Price : <strong>$00</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button" onclick="addToCart()">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
                     </div>
                     <!-- /.col -->
-                    <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div id = "book5" class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/" alt="" />
+                            <img id="book5img" src="assets/img/" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Book 5</a></h3>
-                                <p>Author : <strong>Name Here</strong>  </p>
-                                <p>Price : <strong>$00</strong>  </p>
+                                <h3><a id="book5name" href="#">Book 1</a></h3>
+                                <p id="book5author">Author : <strong>Name Here</strong>  </p>
+                                <p id="book5price">Price : <strong>$00</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button" onclick="addToCart()">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
                     </div>
                     <!-- /.col -->
-                    <div class="col-md-4 text-center col-sm-6 col-xs-6">
+                    <div id = "book6" class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/" alt="" />
+                            <img id="book6img" src="assets/img/" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Book 6</a></h3>
-                                <p>Author : <strong>Name Here</strong>  </p>
-                                <p>Price : <strong>$00</strong>  </p>
+                                <h3><a id="book6name" href="#">Book 1</a></h3>
+                                <p id="book6author">Author : <strong>Name Here</strong>  </p>
+                                <p id="book6price">Price : <strong>$00</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button" onclick="addToCart()">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>

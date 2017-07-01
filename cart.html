@@ -71,10 +71,10 @@
     </nav>
     
     
-    <div class = "jumbotron">
+    <div id = "main-jumbotron" class = "jumbotron">
         <center>
 	       <h2>Shopping Cart</h2>
-	       <p>Your shopping cart is currently empty.<p>
+	       <p id= "sctext">Thank you for Shopping with Pages!<p>
         </center>
     </div>
     
@@ -178,5 +178,24 @@
             <p><a class="btn btn-success">Check Out</a></p>
         </center>
     </div>
+    
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--bootstrap JavaScript file  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--MY PERSONAL JAVASCRIPT FILE-->
+    <script src="assets/js/script.js"></script>
+    
+    <script type="text/javascript">
+        function checkCart(){
+            if(document.getElementById("cart").innerHTML == "Cart" || document.getElementById("cart").innerHTML == "Cart(0)"){
+            document.getElementById("sctext").innerHTML == "Your shopping cart is currently empty";
+        }
+            
+            else{
+                System.out.println("HELLO");
+        }
+        }
+    
+    </script>
 </body>
 </html>
