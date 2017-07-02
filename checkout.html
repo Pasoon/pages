@@ -76,7 +76,7 @@
         </div>
         <div class = "col-lg-8">
             <div class ="jumbotron">
-                <p>Order Summary</p>
+                <h3><strong>Order Summary</strong></h3>
                 <p style="font-size:15px">Item 1</p>
                 <hr style="border-color:#A9A9A9">
                 <div class="input-group">
@@ -95,7 +95,8 @@
         <div class = "col-lg-1">
         </div>
         <div class = "col-lg-6">
-            <h4>Card Information</h4>
+            <h3><strong>Card Information</strong></h3>
+            <hr>
             <br>
             <form name="registration_form" id='registration_form' class="form-inline">
                 <div class="row">
@@ -164,9 +165,53 @@
         <div class = "col-lg-1">
         </div>
         <div class = "col-lg-6">
-            <h4>Shipping Information and Options</h4>
+            <h3><strong>Shipping Information and Options</strong></h3>
+            <hr>
+            <br>
+            <h4>Shipping Address</h4>
+            <br>
+            <label for="address">Address:</label>
+            <input id="address" class="form-control input-group-lg reg_name" type="text" name="address" title="Enter address" placeholder="Address"/>
+            <br>
+            <label for="address">Address Line 2:</label>
+            <input id="address" class="form-control input-group-lg reg_name" type="text" name="address" title="Enter address" placeholder="Optional"/>
+            <br>
+            <label for="address">City:</label>
+            <input id="address" class="form-control input-group-lg reg_name" type="text" name="address" title="Enter address" placeholder="City"/>
+            <br>
+            <label for="address">State/Province:</label>
+            <input id="address" class="form-control input-group-lg reg_name" type="text" name="address" title="Enter address" placeholder="State/Province"/>
+            <br>
+            <label for="address">Zip/Postal Code:</label>
+            <input id="address" class="form-control input-group-lg reg_name" type="text" name="address" title="Enter address" placeholder="Zip/Postal Code"/>
+            
+            <br>
+            <label for="address">Country:</label>
+            <input id="address" class="form-control input-group-lg reg_name" type="text" name="address" title="Enter address" placeholder="Country"/>
+            <hr>
+            <br>
+            <h4>Shipping Options</h4>
+            <br>
+            <div class="checkbox checkbox-info checkbox-circle">
+            <input id="checkbox1" type="checkbox" checked="">
+                <label for="checkbox1">Free Shipping (Usually 7-8 Business Days)</label>
+            </div>
+            <div class="checkbox checkbox-info checkbox-circle">
+            <input id="checkbox1" type="checkbox" checked="">
+                <label for="checkbox1">Two Day Shipping</label>
+                <p>+9.99$</p>
+            </div>
+            <div class="checkbox checkbox-info checkbox-circle">
+            <input id="checkbox1" type="checkbox" checked="">
+                <label for="checkbox1">Same Day Shipping</label>
+                <p>+14.99$</p>
+            </div>
+            <hr>
+            <br>            
+            <a href="#" class="btn btn-lg btn-success">Pay Now <span class="glyphicon glyphicon-lock"></span></a>
         </div>
     </div>
+    
     
     <!--Footer -->
     <div class="col-md-12 footer-box">
