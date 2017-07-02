@@ -36,7 +36,7 @@
 
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Cart</a></li>
+                    <li><a id="cart" href="#">Cart</a></li>
                     <li><a href="#">Login</a></li>
                     <li><a href="#">Signup</a></li>
 
@@ -69,6 +69,131 @@
             <!-- /.navbar-collapse -->
         </div>
     </nav>
+    <!--row-->
+    <div class = "row">
+        <h4></h4>
+    </div>
+    
+    <!--row-->
+    <div class = "row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+            <img height = "500px" width = "400px" src = assets/ItemSlider/images/gameofthronesboxset.jpg>
+        </div>
+        <div class="col-lg-4">
+            <h2>Book Name</h2>
+            <p>By Author</p>
+            <p style="font-size=5px">Paperback | July 4th, 2017</p>
+            <hr>
+            
+            <h4>Summary</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in leo arcu. Duis tincidunt dignissim molestie. Mauris nec auctor justo, sed lacinia metus. Phasellus placerat sed ligula id blandit. Nulla dignissim non lorem porta ornare. Fusce sagittis vitae tellus ac lobortis. Etiam rhoncus odio nisl, in consequat purus finibus sit amet. In eu erat erat. Vivamus et dui non magna eleifend laoreet varius vitae dolor.</p>
+
+            <hr>
+            
+            <h4>19.99$</h4>
+                <h4><select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select></h4>
+            
+            <p><a href="#" class="btn btn-success" role="button" onclick="addToCart()">Add To Cart</a></p>
+        </div>
+        
+    </div>
+    <hr>
+    
+    <!--row-->
+    <div class = "row">
+        <div class = "col-lg-1"></div>
+        <div class = "col-lg-2">
+            <h4>Related Books:</h4>
+        </div>
+    </div>
+    <!--row-->
+    <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-2">
+            <img height = 150px src=assets/ItemSlider/images/clockworkorange.jpg>
+        </div>
+        <div class="col-lg-2">
+            <img height = 150px src=assets/ItemSlider/images/sevenstones.jpg>
+        </div>
+        <div class="col-lg-2">
+            <img height = 150px src=assets/ItemSlider/images/thewomanincabin.jpg>
+        </div>
+        <div class="col-lg-2">
+            <img height = 150px src=assets/ItemSlider/images/magpiemurders.jpeg>
+        </div>
+        <div class="col-lg-2">
+            <img height = 150px src=assets/ItemSlider/images/perfectlife.jpg>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <!--Footer -->
+    <div class="col-md-12 footer-box">
+        <div class="row">
+            <div class="col-md-4">
+                <strong>Send a Quick Query </strong>
+                <hr>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" required="required" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" required="required" placeholder="Email address">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Submit Request</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-4">
+                <strong>Our Location</strong>
+                <hr>
+                <p>
+                     1240, Donald Street,<br />
+                                    Ottawa, CAN<br />
+                    Call: +09-456-567-890<br>
+                    Email: pages@gmail.com<br>
+                </p>
+
+                2017 www.pages.com | All Right Reserved
+            </div>
+            <div class="col-md-4 social-box">
+                <strong>We are Social </strong>
+                <hr>
+                <a href="#"><i class="fa fa-facebook-square fa-3x "></i></a>
+                <a href="#"><i class="fa fa-twitter-square fa-3x "></i></a>
+                <a href="#"><i class="fa fa-google-plus-square fa-3x c"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square fa-3x "></i></a>
+                <a href="#"><i class="fa fa-pinterest-square fa-3x "></i></a>
+                <p>
+                    Stay connected with pages by following us on our social media pages!
+                </p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <script src="assets/js/jquery-1.10.2.js"></script>
     <!--bootstrap JavaScript file  -->
     <script src="assets/js/bootstrap.js"></script>
     <!--MY PERSONAL JAVASCRIPT FILE-->
