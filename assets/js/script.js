@@ -11,7 +11,50 @@ function addToCart(){
     localStorage.setItem("Cart Count", cartcount);
 }
 
+
 function scienceFictionClicked(){
+
+    console.log(document.getElementById("book1"));
+    console.log(document.getElementById("book1"));
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='hidden'){
+        document.getElementById("book2").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'visible'
+    }
+    if(document.getElementById("book3").style.visibility==='hidden'){
+        document.getElementById("book3").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'visible'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
     
     document.getElementById("numberofitems").innerHTML="3 items"
     document.getElementById("browsetext").innerHTML="Science Fiction"
@@ -22,7 +65,7 @@ function scienceFictionClicked(){
     document.getElementById("book1price").innerHTML = "9.99$"
     
     document.getElementById("book2img").src="assets/ItemSlider/images/sevenstones.jpg";
-    document.getElementById("book2img").style.height = "250px";
+    document.getElementById("book2img").style.height = "200px";
     document.getElementById("book2name").innerHTML = "Seven Stones to Stand or Fall"
     document.getElementById("book2author").innerHTML = "Diana Gabaldon"
     document.getElementById("book2price").innerHTML = "15.99$"
@@ -34,6 +77,45 @@ function scienceFictionClicked(){
 }
 
 function satireClicked(){
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='visible'){
+        document.getElementById("book2").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book3").style.visibility==='visible'){
+        document.getElementById("book3").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
     
     document.getElementById("numberofitems").innerHTML="1 item"
     document.getElementById("browsetext").innerHTML="Satire"
@@ -47,6 +129,46 @@ function satireClicked(){
 
 function artClicked(){
     
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='visible'){
+        document.getElementById("book2").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book3").style.visibility==='visible'){
+        document.getElementById("book3").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
+    
     document.getElementById("numberofitems").innerHTML="1 item"
     document.getElementById("browsetext").innerHTML="Art"
     
@@ -57,6 +179,45 @@ function artClicked(){
 }
 
 function fantasyClicked(){
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='hidden'){
+        document.getElementById("book2").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'visible'
+    }
+    if(document.getElementById("book3").style.visibility==='visible'){
+        document.getElementById("book3").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
     
     document.getElementById("numberofitems").innerHTML="2 items"
     document.getElementById("browsetext").innerHTML="Fantasy"
@@ -75,6 +236,45 @@ function fantasyClicked(){
 
 function biographyClicked(){
     
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='visible'){
+        document.getElementById("book2").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book3").style.visibility==='visible'){
+        document.getElementById("book3").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
+    
     document.getElementById("numberofitems").innerHTML="1 item"
     document.getElementById("browsetext").innerHTML="Biography"
     
@@ -86,6 +286,46 @@ function biographyClicked(){
 
 function selfhelpClicked(){
     
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='hidden'){
+        document.getElementById("book2").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'visible'
+    }
+    if(document.getElementById("book3").style.visibility==='hidden'){
+        document.getElementById("book3").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'visible'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='hidden'){
+        document.getElementById("book4").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'visible'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
+    
+    
     document.getElementById("numberofitems").innerHTML="4 items"
     document.getElementById("browsetext").innerHTML="Self Help"
     
@@ -96,7 +336,7 @@ function selfhelpClicked(){
     document.getElementById("book1price").innerHTML = "19.99$"
     
     document.getElementById("book2img").src="assets/ItemSlider/images/noisnotenuf.jpg";
-    document.getElementById("book2img").style.height = "250px";
+    document.getElementById("book2img").style.height = "200px";
     document.getElementById("book2name").innerHTML = "No Is Not Enough: Resisting the New Shock Politics and Winning the World We Need"
     document.getElementById("book2author").innerHTML = "Naomi Klein"
     document.getElementById("book2price").innerHTML = "13.99$"
@@ -115,6 +355,46 @@ function selfhelpClicked(){
 }
 
 function historyClicked(){
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='hidden'){
+        document.getElementById("book2").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'visible'
+    }
+    if(document.getElementById("book3").style.visibility==='hidden'){
+        document.getElementById("book3").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'visible'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='hidden'){
+        document.getElementById("book4").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'visible'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
+    
     document.getElementById("numberofitems").innerHTML="4 items"
     document.getElementById("browsetext").innerHTML="History"
     
@@ -125,6 +405,7 @@ function historyClicked(){
     
     document.getElementById("book2img").src="assets/ItemSlider/images/theorphanstale.jpg";
     document.getElementById("book2name").innerHTML = "The Orphan's Tale: A Novel"
+     document.getElementById("book2img").style.height = "250px";
     document.getElementById("book2author").innerHTML = "Pam Jenoff"
     document.getElementById("book2price").innerHTML = "9.99$"
     
@@ -140,6 +421,45 @@ function historyClicked(){
 }
 
 function actionClicked(){
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='hidden'){
+        document.getElementById("book2").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'visible'
+    }
+    if(document.getElementById("book3").style.visibility==='hidden'){
+        document.getElementById("book3").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'visible'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
     
     document.getElementById("numberofitems").innerHTML="3 items"
     document.getElementById("browsetext").innerHTML="Action & Adventure"
@@ -164,12 +484,52 @@ function actionClicked(){
 }
 
 function mysteryClicked(){
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='hidden'){
+        document.getElementById("book2").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'visible'
+    }
+    if(document.getElementById("book3").style.visibility==='hidden'){
+        document.getElementById("book3").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'visible'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
+    
     document.getElementById("numberofitems").innerHTML="3 items"
     document.getElementById("browsetext").innerHTML="Mystery"
     
     document.getElementById("book1img").src="assets/ItemSlider/images/strangedeath.jpg";
     document.getElementById("book1name").innerHTML = "The Strange Death of Europe: Immigration, Identity, Islam"
-    document.getElementById("book1img").style.height = "250px";
+    document.getElementById("book1img").style.height = "200px";
     document.getElementById("book1author").innerHTML = "Douglas Murray"
     document.getElementById("book1price").innerHTML = "9.99$"
     
@@ -187,6 +547,46 @@ function mysteryClicked(){
 
 function guideClicked(){
     
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='hidden'){
+        document.getElementById("book2").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'visible'
+    }
+    if(document.getElementById("book3").style.visibility==='visible'){
+        document.getElementById("book3").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
+    
     document.getElementById("numberofitems").innerHTML="2 items"
     document.getElementById("browsetext").innerHTML="Guide & Travel"
     
@@ -198,12 +598,51 @@ function guideClicked(){
     
     document.getElementById("book2img").src="assets/ItemSlider/images/earlscookbook.jpg";
     document.getElementById("book2name").innerHTML = "Earls The Cookbook: Eat a Little. Eat a Lot. 110 of Your Favourite Recipes"
-    document.getElementById("book2img").style.height = "250px";
+    document.getElementById("book2img").style.height = "200px";
     document.getElementById("book2author").innerHTML = "Jim Sutherland"
     document.getElementById("book2price").innerHTML = "16.99$"
 }
 
 function childrenClicked(){
+    
+    if(document.getElementById("book1").style.visibility==='hidden'){
+        document.getElementById("book1").style.visibility = 'visible';
+    }
+    else{
+        document.getElementById("book1").style.visibility = 'visible'
+    }
+    if(document.getElementById("book2").style.visibility==='visible'){
+        document.getElementById("book2").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book2").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book3").style.visibility==='visible'){
+        document.getElementById("book3").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book3").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book4").style.visibility==='visible'){
+        document.getElementById("book4").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book4").style.visibility = 'hidden'
+    }
+    
+    if(document.getElementById("book5").style.visibility==='visible'){
+        document.getElementById("book5").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book5").style.visibility = 'hidden'
+    }
+    if(document.getElementById("book6").style.visibility==='visible'){
+        document.getElementById("book6").style.visibility = 'hidden';
+    }
+    else{
+        document.getElementById("book6").style.visibility = 'hidden'
+    }
     
     document.getElementById("numberofitems").innerHTML="1 item"
     document.getElementById("browsetext").innerHTML="Childrens"
