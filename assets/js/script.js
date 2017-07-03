@@ -8,7 +8,6 @@ function updateBrowsingHeader() {
 function addToCart(){
     ++cartcount;
     document.getElementById("cart").innerHTML = "Cart("+cartcount+")";
-    localStorage.setItem("Cart Count", cartcount);
 }
 
 
