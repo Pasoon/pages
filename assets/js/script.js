@@ -10,14 +10,11 @@ window.onload = function(){
     }
 }
 
-function updateBrowsingHeader() {
-    document.getElementById("browsetext");
-    
-}
 
 function addToCart(){
     ++cartcount;
     document.getElementById("cart").innerHTML = "Cart("+cartcount+")";
+    alert("Added to cart.");
 }
 
 
